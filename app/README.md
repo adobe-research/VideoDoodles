@@ -32,13 +32,13 @@ To see logs from the containers:
 ```bash
 # This will list all running and exited containers, so you can use it to see if both containers have started fine
 docker ps -a
-# eg:
+# should give something like:
 CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                    NAMES
-06bf4ac29338   video-doodles-app-backend   "python3 -u app.py"      16 minutes ago   Up 16 minutes   0.0.0.0:8001->8001/tcp   video-doodles-app-backend-1
-848cf6c69995   video-doodles-app-ui        "tiny-http-server --…"   21 minutes ago   Up 21 minutes   0.0.0.0:80->8000/tcp     video-doodles-app-ui-1
+06bf4ac29338   app-backend                 "python3 -u app.py"      16 minutes ago   Up 16 minutes   0.0.0.0:8001->8001/tcp   app-backend-1
+848cf6c69995   app-frontend                "tiny-http-server --…"   21 minutes ago   Up 21 minutes   0.0.0.0:80->8000/tcp     app-frontend-1
 
 # Follow the logs of backend container (Ctrl+C to stop following):
-docker logs -f video-doodles-app-backend-1
+docker logs -f app-backend-1
 # Stream of logs...
 ```
 
@@ -48,8 +48,8 @@ Stop containers when you are done:
 
 ```bash
 # Stop containers
-docker stop video-doodles-app-backend-1
-docker stop video-doodles-app-ui-1
+docker stop app-backend-1
+docker stop app-frontend-1
 # Remove them
 docker container prune
 ```
