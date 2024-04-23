@@ -1,5 +1,7 @@
 # Video Doodles: Hand-Drawn Animations on Videos with Scene-Aware Canvases
 
+![VideoDoodles Teaser](./Teaser.png)
+
 This repository contains source code related to a research paper: [webpage](https://em-yu.github.io/research/videodoodles/), [paper](https://www-sop.inria.fr/reves/Basilic/2023/YBNWKB23/VideoDoodles.pdf), [ACM page](https://dl.acm.org/doi/abs/10.1145/3592413).
 
 The subfolders contain further instructions to run the code for [preprocessing](preprocess) and to set up the [web application](app).
@@ -18,10 +20,6 @@ If this code is useful to your research, please consider citing the publication:
   numpages = {12},
 }
 ```
-
-## License
-
-TODO
 
 ## Contact
 
