@@ -13,7 +13,7 @@ npm install
 
 - [x] **Provide videos data**
 
-We provide data for 16 videos, please [download the archive](https://repo-sam.inria.fr/d3/VideoDoodles/video-doodles-preprocessed-data-ui.zip) and extract into `public/data` folder, so that it looks like:
+We provide data for 16 videos, please [download the archive](https://repo-sam.inria.fr/d3/VideoDoodles/video-doodles-preprocessed-data-ui.zip) and extract into `frontend/public/data` folder, so that it looks like:
 
 ```bash
 public

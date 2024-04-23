@@ -30,7 +30,7 @@ We will read input data from a `raw-data` folder:
 
 ```
 VideoDoodles
-		app
+    app
     preprocess
     raw-data
 ```
