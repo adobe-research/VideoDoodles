@@ -1,0 +1,3 @@
+raw-data/*
+!raw-data/.gitkeep
+.DS_Store

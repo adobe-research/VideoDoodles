@@ -1,0 +1,13 @@
+imageio==2.34.0
+matplotlib==3.8.2
+numpy==1.26.4
+opencv_contrib_python
+Pillow==10.2.0
+polyscope==2.1.0
+scikit_learn==1.4.0
+scipy==1.12.0
+scikit_image
+torch==2.2.0
+torchvision==0.17.0
+visdom==0.2.4
+wandb==0.16.3

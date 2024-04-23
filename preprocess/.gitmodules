@@ -1,0 +1,3 @@
+[submodule "videowalk"]
+	path = videowalk
+	url = https://github.com/ajabri/videowalk.git

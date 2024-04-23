@@ -1,0 +1,7 @@
+keyframe_records/*
+exports/*
+data/*
+**/__pycache__/
+data-new/*
+data-test/*
+.git/*

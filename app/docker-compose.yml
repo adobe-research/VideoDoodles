@@ -1,0 +1,17 @@
+
+services:
+  ui:
+    build:
+      context: video-doodles-ui
+    ports:
+      - 80:8000
+    volumes:
+      - ./frontend/public/data:/app/public/data
+
+  backend:
+    build:
+      context: video-doodles-backend
+    ports:
+      - 8001:8001
+    volumes:
+      - ./backend/data:/app/data
