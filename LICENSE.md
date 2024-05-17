@@ -4,6 +4,8 @@ INRIA/ADOBE RESEARCH LICENSE
 
 This license agreement (this “License”) between **Adobe Inc.**, having a place of business at 345 Park Avenue, San Jose, California 95110-2704  and **Inria**, having a place of business at Domaine de Voluceau, Rocquencourt, BP 105,78153 Le Chesnay Cedex (collectively “Licensors”) and you, the individual or entity exercising rights under this License (“you” or “your”), sets forth the terms for your use of certain software owned by Licensors and provided both as a compiled library file and as source code (the “Licensed Materials”). By exercising rights under this License, you accept and agree to be bound by its terms. If you are exercising rights under this license on behalf of an entity, then “you” also includes such entity, and you represent and warrant that you (personally) have all necessary authority to bind that entity to the terms of this License.
 
+This software has been registered with "Agence pour la Protection des Programmes" (Software Protection Agency) by Inria and Adobe (registration ID: `IDDN.FR.001.200019.000.S.P.2024.000.31235`).
+
 ## 1.	GRANT OF LICENSE.
 
 1.1	Licensors grant you a nonexclusive, worldwide, royalty-free, revocable, license to (A) reproduce, use, modify, and publicly display the Licensed Materials for noncommercial research purposes only; and (B) redistribute the Licensed Materials, and modifications or derivative works thereof, for noncommercial research purposes only, provided that recipients receive a copy of this License and agree to its terms. 
